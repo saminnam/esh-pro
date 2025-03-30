@@ -11,7 +11,7 @@ import "aos/dist/aos.css";
 import About from "./pages/AboutUs/About";
 import Projects from "./pages/Projects/Projects";
 import ContactUs from "./pages/ContactUs/ContactUs";
-import Loader from "./components/loader";
+import Loader from "./components/Loader";
 import "@fontsource/poppins";
 import Quotation from "./components/QuotationForm/Quotation";
 
