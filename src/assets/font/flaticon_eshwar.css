@@ -1,0 +1,68 @@
+/*!
+*    ______ _       _   _
+*    |  ____| |     | | (_)
+*    | |__  | | __ _| |_ _  ___ ___  _ __
+*    |  __| | |/ _` | __| |/ __/ _ \| '_ \
+*    | |    | | (_| | |_| | (_| (_) | | | |
+*    |_|    |_|\__,_|\__|_|\___\___/|_| |_|
+*
+*         https://www.flaticon.com
+*/
+
+@font-face {
+    font-family: "flaticon_eshwar";
+    src: url("./flaticon_eshwar.woff2?d9797c9566a23aec700edb49af8a2ac0") format("woff2"),
+url("./flaticon_eshwar.woff?d9797c9566a23aec700edb49af8a2ac0") format("woff"),
+url("./flaticon_eshwar.eot?d9797c9566a23aec700edb49af8a2ac0#iefix") format("embedded-opentype"),
+url("./flaticon_eshwar.ttf?d9797c9566a23aec700edb49af8a2ac0") format("truetype"),
+url("./flaticon_eshwar.svg?d9797c9566a23aec700edb49af8a2ac0#flaticon_eshwar") format("svg")
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_eshwar !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-experience:before {
+    content: "\f101";
+}
+.flaticon-gears:before {
+    content: "\f102";
+}
+.flaticon-hard-work:before {
+    content: "\f103";
+}
+.flaticon-needs:before {
+    content: "\f104";
+}
+.flaticon-reliability:before {
+    content: "\f105";
+}
+.flaticon-building-plan:before {
+    content: "\f106";
+}
+.flaticon-best-product:before {
+    content: "\f107";
+}
+.flaticon-quality:before {
+    content: "\f108";
+}
+.flaticon-puzzle:before {
+    content: "\f109";
+}
+.flaticon-time:before {
+    content: "\f10a";
+}
+.flaticon-service:before {
+    content: "\f10b";
+}
+.flaticon-honesty:before {
+    content: "\f10c";
+}
+

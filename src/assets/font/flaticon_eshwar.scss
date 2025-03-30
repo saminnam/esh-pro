@@ -1,0 +1,73 @@
+$flaticon_eshwar-font: "flaticon_eshwar";
+
+@font-face {
+    font-family: $flaticon_eshwar-font;
+    src: url("./flaticon_eshwar.woff2?d9797c9566a23aec700edb49af8a2ac0") format("woff2"),
+url("./flaticon_eshwar.woff?d9797c9566a23aec700edb49af8a2ac0") format("woff"),
+url("./flaticon_eshwar.eot?d9797c9566a23aec700edb49af8a2ac0#iefix") format("embedded-opentype"),
+url("./flaticon_eshwar.ttf?d9797c9566a23aec700edb49af8a2ac0") format("truetype"),
+url("./flaticon_eshwar.svg?d9797c9566a23aec700edb49af8a2ac0#flaticon_eshwar") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon_eshwar !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon_eshwar-map: (
+    "experience": "\f101",
+    "gears": "\f102",
+    "hard-work": "\f103",
+    "needs": "\f104",
+    "reliability": "\f105",
+    "building-plan": "\f106",
+    "best-product": "\f107",
+    "quality": "\f108",
+    "puzzle": "\f109",
+    "time": "\f10a",
+    "service": "\f10b",
+    "honesty": "\f10c",
+);
+
+.flaticon-experience:before {
+    content: map-get($flaticon_eshwar-map, "experience");
+}
+.flaticon-gears:before {
+    content: map-get($flaticon_eshwar-map, "gears");
+}
+.flaticon-hard-work:before {
+    content: map-get($flaticon_eshwar-map, "hard-work");
+}
+.flaticon-needs:before {
+    content: map-get($flaticon_eshwar-map, "needs");
+}
+.flaticon-reliability:before {
+    content: map-get($flaticon_eshwar-map, "reliability");
+}
+.flaticon-building-plan:before {
+    content: map-get($flaticon_eshwar-map, "building-plan");
+}
+.flaticon-best-product:before {
+    content: map-get($flaticon_eshwar-map, "best-product");
+}
+.flaticon-quality:before {
+    content: map-get($flaticon_eshwar-map, "quality");
+}
+.flaticon-puzzle:before {
+    content: map-get($flaticon_eshwar-map, "puzzle");
+}
+.flaticon-time:before {
+    content: map-get($flaticon_eshwar-map, "time");
+}
+.flaticon-service:before {
+    content: map-get($flaticon_eshwar-map, "service");
+}
+.flaticon-honesty:before {
+    content: map-get($flaticon_eshwar-map, "honesty");
+}

@@ -1,0 +1,34 @@
+.bg-pattern {
+  background-image: url("../../assets/bg-building2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-bg {
+  transition: background-image 200ms linear, transform 200ms linear;
+}
+
+.card-bg:hover {
+  border-radius: 5px;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  height: 275px;
+  background-size: cover;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../../assets/card-bg.png");
+  transform: scale(1.05);
+}
+
+
+@media screen and (max-width: 870px) {
+  .card-bg:hover {
+    border-radius: 5px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    height: 300px;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("../../assets/card-bg.png");
+    transform: scale(1.05);
+  }
+}
